@@ -7,7 +7,7 @@
 %define _disable_rebuild_configure 1
 
 Summary:	C++ interface for the pango library
-Name:		pangomm
+Name:		pangomm%{api}
 Version:	2.42.2
 Release:	1
 License:	LGPLv2+
