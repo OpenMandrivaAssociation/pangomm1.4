@@ -3,13 +3,13 @@
 %define api	1.4
 %define major	1
 %define libname	%mklibname %{pkgname} %{api} %{major}
-%define devname	%mklibname -d %{pkgname}
+%define devname	%mklibname -d %{pkgname} %{api}
 %define _disable_rebuild_configure 1
 
 Summary:	C++ interface for the pango library
 Name:		pangomm%{api}
 Version:	2.42.2
-Release:	2
+Release:	3
 License:	LGPLv2+
 Group:		System/Libraries
 Url:		http://gtkmm.org/
