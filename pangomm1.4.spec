@@ -8,8 +8,8 @@
 
 Summary:	C++ interface for the pango library
 Name:		pangomm%{api}
-Version:	2.46.2
-Release:	2
+Version:	2.46.3
+Release:	1
 License:	LGPLv2+
 Group:		System/Libraries
 Url:		http://gtkmm.org/
@@ -81,7 +81,7 @@ this documentation with devhelp, a documentation reader.
 %{_libdir}/libpangomm-%{api}.so.%{major}*
 
 %files -n %{devname}
-%doc COPYING ChangeLog AUTHORS NEWS README
+%doc COPYING ChangeLog AUTHORS NEWS README*
 %{_includedir}/*
 %{_libdir}/*.so
 %{_libdir}/pkgconfig/*.pc
