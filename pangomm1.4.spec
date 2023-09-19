@@ -9,11 +9,11 @@
 Summary:	C++ interface for the pango library
 Name:		pangomm%{api}
 Version:	2.46.3
-Release:	3
+Release:	4
 License:	LGPLv2+
 Group:		System/Libraries
-Url:		http://gtkmm.org/
-Source0:	http://ftp.gnome.org/pub/GNOME/sources/pangomm/%{url_ver}/%{pkgname}-%{version}.tar.xz
+Url:		http:s//gtkmm.org/
+Source0:	https://ftp.gnome.org/pub/GNOME/sources/pangomm/%{url_ver}/%{pkgname}-%{version}.tar.xz
 
 BuildRequires:	doxygen
 BuildRequires:	meson
