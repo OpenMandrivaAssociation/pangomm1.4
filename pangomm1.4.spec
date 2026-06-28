@@ -8,8 +8,8 @@
 
 Summary:	C++ interface for the pango library
 Name:		pangomm%{api}
-Version:	2.46.4
-Release:	8
+Version:	2.46.5
+Release:	1
 License:	LGPLv2+
 Group:		System/Libraries
 Url:		https://gtkmm.org/
